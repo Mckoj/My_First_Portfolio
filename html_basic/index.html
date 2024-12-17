@@ -4,6 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f4f4f4;
+      font-weight: bold;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -14,16 +33,51 @@
   </header>
   <main>
     <article>
-      <h1>Welcome to My Website</h1>
-      <p>This is my homepage content.</p>
+      <h1>Welcome to My Portfolio</h1>
+      <p>This is the main content of the homepage.</p>
+
+      <!-- Table of Learners -->
+      <h2>Table of Learners</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>25</td>
+            <td>USA</td>
+          </tr>
+          <tr>
+            <td>Emily</td>
+            <td>28</td>
+            <td>Canada</td>
+          </tr>
+          <tr>
+            <td>Michael</td>
+            <td>32</td>
+            <td>Australia</td>
+          </tr>
+          <tr>
+            <td>Sophia</td>
+            <td>21</td>
+            <td>UK</td>
+          </tr>
+        </tbody>
+      </table>
     </article>
     <aside>
       <p>placeholder to add comment thread later</p>
     </aside>
   </main>
   <footer>
-    <p>Made by Sylvester- <a href="#" target="_blank">here</a></p>
+    <p>Made by YOUR NAME - <a href="https://your-link.com" target="_blank">here</a></p>
   </footer>
 </body>
 </html>
+
 
